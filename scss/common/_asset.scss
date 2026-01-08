@@ -1,0 +1,35 @@
+
+/*=======
+変数
+========*/
+
+$mc :#FD54A3;
+
+$fc :#595757;
+
+$sc :#5B85D9;
+
+$bc1 : #FDF2F6;
+
+$bc2 : #E8F0FF;
+
+
+
+
+/*========
+mixin
+=========*/
+
+@mixin test(){
+    outline: 3px solid red;
+}
+
+@mixin in(){
+    background-color: rgba($color: green, $alpha: 0.3);
+}
+
+@mixin opa {
+    opacity: 0.7;
+    transition: 1s;
+}
+
